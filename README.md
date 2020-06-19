@@ -34,7 +34,7 @@ As a first step let us create a controller class for simple CRUD operation on mo
 ![](image/Account.png)
 
 
-**REST APIs for performing CRUD Operation: **
+**REST APIs for performing CRUD Operation:**
 
 
 ![](image/Controller.png)
