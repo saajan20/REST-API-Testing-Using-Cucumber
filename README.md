@@ -1,13 +1,13 @@
-# REST API Testing Using Cucumber
+# REST API Testing Using Cucumber Framework
 
-This project is about testing REST APIs using cucumber. Cucumber is a framework highly used for testing REST APIs, compatible with [BDD](https://cucumber.io/docs/bdd/) (Behaviour Driven Development). BDD allows the developers and users to define the operations of an application in plain text. It works on the DSL ([Gherkin](https://cucumber.io/docs/gherkin/reference/) Domain Specific Language).
+This project is about testing REST APIs using cucumber framework. Cucumber is a framework highly used for testing REST APIs, compatible with [BDD](https://cucumber.io/docs/bdd/) (Behaviour Driven Development). BDD allows the developers and users to define the operations of an application in plain text. It works on the DSL ([Gherkin](https://cucumber.io/docs/gherkin/reference/) Domain Specific Language).
 
-#### Downloads
+### Downloads
 1. Cucumber Eclipse Plugin  
 
    This Plugin is optional but it provides great support while creating gherkin file(.feature files). It can be downloaded directly from eclipse market place or offline through zip file. For downloading offline follow these [steps](https://github.com/cucumber/cucumber-eclipse/wiki/Download-and-Offline-Installation-Of-The-Plugin-From-Zip).
    
-#### Maven Dependencies
+### Maven Dependencies
 In order to make use of Cucumber-JVM in a Maven project, the following dependency needs to be included in the POM:
 
 ![](image/cucumber_java.png)
@@ -21,9 +21,9 @@ To execute Cucumber scripts in Spring Context.
 ![](image/cucumber_spring.png)
 
 
-#### Configuration
+### Configuration
 
-We'll now look at how we can integrate Cucumber in a Spring Micro service application. The first step is to create a Spring Boot application. Then we'll create a Spring REST service in the Boot application and write the Cucumber test for this REST Service.
+We'll now look at how we can integrate Cucumber in a Spring application. The first step is to create a Spring Boot application. Then we'll create a Spring REST service in the Boot application and write the Cucumber test for this REST Service.
 
 #### 1.Rest Controller
 
